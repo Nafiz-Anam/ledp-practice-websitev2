@@ -32,6 +32,13 @@
     color: rgb(13, 166, 177);
 }
 
+.my-bar span {
+    color: rgb(13, 166, 177);
+    padding-top: 5px;
+    font-size: larger;
+}
+
+
 
 /* main banner */
 
