@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* nav bar */
+
+.nav-bar {
+    width: 100%;
+    background-color: rgb(232, 236, 240);
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.my-nav {
+    letter-spacing: 2px;
+    font-weight: bolder;
+    padding: 0 100px;
+}
+
+.my-nav a {
+    color: black;
+}
+
+.my-nav .active {
+    color: rgb(13, 166, 177);
+}
+
+.my-nav a:hover {
+    color: rgb(13, 166, 177);
+}
+
+
+/* main banner */
+
+.my-banner {
+    padding-top: 40px;
+}
+
+.my-info {
+    padding: 80px 0;
+}
+
+.banner-text {
+    padding-top: 10%;
+    letter-spacing: 5px;
+}
+
+.btn-hire {
+    background: white;
+    transition: 0.5s;
+    color: black;
+    border-radius: 15px;
+}
+
+.btn-hire:hover {
+    background: rgb(13, 166, 177);
+    color: white;
+}
+
+.btn-cv {
+    border-radius: 15px;
+    background: rgb(13, 166, 177);
+    transition: 0.5s;
+}
+
+.btn-cv:hover {
+    background: white;
+    color: black;
+}
+
+
+/* about area */
+
+.about-area {
+    padding: 0 100px;
+}
+
+.about-text {
+    padding-top: 8%;
+}
+
+.about-text h2>span {
+    display: block;
+    letter-spacing: 10px;
+}
+
+.intro {
+    padding-top: 15px;
+    color: rgb(131, 142, 153);
+}
+
+
+/* services area */
+
+.para {
+    color: rgb(131, 142, 153);
+    font-size: 15px;
+}
+
+.service-area .services-title {
+    padding: 0 14rem;
+}
+
+.service-area .services-title h1 {
+    font-size: 30px;
+}
+
+
+/* contact */
+
+
+/* footer area */
+
+
+/* social area */
+
+.footer-social-icons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.footer-social-icons ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-social-icons ul li {
+    display: inline-block;
+    margin-right: 2px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+}
+
+.footer-social-icons ul li a i {
+    line-height: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+.footer-social-icons ul li:nth-child(1) {
+    background: #3b5998;
+}
+
+.footer-social-icons ul li:nth-child(2) {
+    background: black;
+}
+
+.footer-social-icons ul li:nth-child(3) {
+    background: red;
+}
+
+.footer-social-icons ul li:nth-child(4) {
+    background: #13a2e4;
+}
+
+.footer-social-icons ul li:nth-child(5) {
+    background: rgb(255, 123, 0);
+}
+
+.my-address ul {
+    list-style-type: none;
+}
+
+.my-address ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.my-address ul li a:hover {
+    color: rgb(13, 166, 177);
+}
+
+.footer-link {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer-link ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-link ul li {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.footer-link ul li a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-link ul li a:hover {
+    color: rgb(13, 166, 177);
+}
+
+.footer-section-two .footer-heading h2 {
+    text-align: center;
+}
+
+.footer-bottom {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    font-size: 14px;
+    text-align: center;
+    color: black;
+}
+
+
+/*-------RESPONSIVE CODE---------*/
+
+@media only screen and (max-width: 1199px) {
+    .footer-wrapper {
+        position: relative;
+        background-attachment: scroll;
+    }
+    h1 {
+        font-size: 4vw !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .footer-section-one {
+        padding: 12px;
+    }
+    .footer-social-icons ul li {
+        margin-bottom: 5px;
+    }
+}
